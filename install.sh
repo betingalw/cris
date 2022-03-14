@@ -19,7 +19,7 @@ xfconf-query -c xsettings -p /Net/IconThemeName -s "Papirus-Dark"
 xfconf-query -c xsettings -p /Net/ThemeName -s "Adwaita-dark"
 sudo cp -R Dots\ Black /usr/share/themes
 xfconf-query -c xfwm4 -p /general/theme -s "Dots Black"
-
+xdg-user-dirs-update
 #Install the AUR helper
 git clone https://aur.archlinux.org/yay.git
 sudo chown -R $USER:$USER yay/
@@ -27,4 +27,4 @@ cd yay/
 makepkg -si
 cd ..
 sudo rm -R yay/
-yay --noconfirm -S nerd-fonts-dejavu-complete
+yay --noconfirm -S nerd-fonts-dejavu-complete mugshot
