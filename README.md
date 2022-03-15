@@ -3,7 +3,7 @@
 ## How To Install
 This script is designed to be ran after a base Arch Linux installation (Non Systemd Arch distros will be supported later)
 ```
-git clone https://github.com/obfuscatedvariations/cris
+git clone https://github.com/betingalw/cris
 cd cris
 ./install.sh
 ```
