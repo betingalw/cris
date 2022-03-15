@@ -13,6 +13,9 @@ cd cris
 * A non root user added
 
 ## What Do You Get?
+![preview image](https://user-images.githubusercontent.com/59771166/158350371-d10766fd-9b5c-49af-9dce-9d78c5db67c1.png)
+
+
 I designed this script to allow myself to automate my XFCE4 theme *(which has a windows like layout)*. So I can port it over to future installations of Arch Linux, and decided to also write this script to install some applications that I think a beginner arch user would find useful. Such as: 
 * Media Player & Music Player
 * Web Browser & E-Mail Client
